@@ -25,11 +25,11 @@ From:
 
 ### File Structure
 
-- src/
+- [src/](/src/)
     
     The containing folder of our actual code
 
-    - [/src/fetch.rb](fetch.rb)
+    - [/src/fetch.rb](/src/fetch.rb)
 
 - [run.rb](run.rb)
 

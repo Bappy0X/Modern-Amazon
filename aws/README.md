@@ -26,11 +26,17 @@ From:
 ### File Structure
 
 - src/
+    
     The containing folder of our actual code
+
     - [/src/fetch.rb](fetch.rb)
+
 - [run.rb](run.rb)
+
     The file that will enclose all the code needed for running the Lambda function itself, and will reference the src code inside
+
 - [serverless.yml](serverless.yml)
+
     This is the file used for describing the structure the of our AWS Lambda - this is powered by [Serverless Framework](https://www.serverless.com/)
 
 > Gonna take a break to watch a movie (L4yer Cak3) and think...

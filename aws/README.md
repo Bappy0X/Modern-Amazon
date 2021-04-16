@@ -1,0 +1,3 @@
+> "Serverless" scraping for Amazon data - using AWS Lambda
+
+Built with Ruby - I promise I'm *not* insane...

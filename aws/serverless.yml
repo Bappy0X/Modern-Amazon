@@ -1,0 +1,16 @@
+service: modern-amazon           # The name for our overall service, displayed on AWS
+
+provider:
+  name: aws                      # We'll be using AWS Lambda
+  region: eu-west-2              # This is Amazon's London-Based server/data center
+  memorySize: 1024               # More RAM == More Compute with Amazon (this is also the default, see https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml/)
+  runtime: ruby2.5               # We're gonna be running Ruby version 2.5
+  lambdaHashingVersion: 20201221 # Something Serverless tells me to use for hashing?
+
+functions:
+  scrape:                        # Our first function will be named "scrape"
+    handler: run.scrape          # This is the file.function that we'd like to invoke for the serverless function
+    events:                      # The selection of event's we'd like to use to invoke the funtion
+      - httpApi:                 # 
+          path: /scrape          # ../scrape will be our HTTP endpoint's path
+          method: get            # The HTTP request method used for invoking the function, via the described path

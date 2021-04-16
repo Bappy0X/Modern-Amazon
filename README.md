@@ -8,7 +8,9 @@ Helping to brush up my skills, and develop on what I know.
 
 > What is this project?
 
-This is a modernistic build on Amazon
+This is a modernistic build of Amazon. We use Amazon's front end to scrape the selection of products we need, and their info. We then ingest it and display it on the front-end.
+
+It's also a way for me to show off what I've learned in my private repos, and to shop off StepZen.
 
 > What does it use?
 
@@ -18,3 +20,11 @@ This project will comprise of 4 different sections:
 - [The Backend API](/api/README.md)
 - [The GraphQL/StepZen Interface](/graphql/README.md)
 - [And The Front-End App](/app/README.md)
+
+> Who are you?
+
+As of writing this, I'm 17, I do full-stack web and app development for a variety of clients.
+
+I'm currently in college, studying Computer Science, Business Studies and Public Services.
+
+I like movies, girls, and want to join the Royal Navy in the future.

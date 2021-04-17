@@ -1,11 +1,12 @@
 type Product {
     asin: ID!
+    title: String!
 }
 
 type Query {
     productById (asin: ID!): Product
-        @rest (endpoint: "http://localhost/p/$asin")
+        @rest (endpoint: "https://modern-amazon.herokuapp.com/p/$asin", resultroot: "data")
 
     products: [Product]
-        @rest (endpoint: "http://localhost/p/")
+        @rest (endpoint: "https://modern-amazon.herokuapp.com/p/", resultroot: "data")
 }

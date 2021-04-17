@@ -12,10 +12,10 @@ npm install heroku
 ```
 heroku login
 ```
-3. Initialise a new git and add remove
+3. Initialise a new git and add remote
 ```
 git init
-heroku git:remote -a modern-amazon
+heroku git:remote -a modern-amazon-api
 ```
 4. Commit changes and deploy
 ```

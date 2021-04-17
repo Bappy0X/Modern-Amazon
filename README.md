@@ -16,10 +16,10 @@ It's also a way for me to show off what I've learned in my private repos, and to
 
 This project will comprise of 4 different sections:
 
-- [The AWS Lambda Function](/aws/README.md)
-- [The Backend API](/api/README.md)
-- [The GraphQL/StepZen Interface](/graphql/README.md)
-- [And The Front-End App](/app/README.md)
+- [The AWS Lambda Function](/aws/)
+- [The Backend API](/api/)
+- [The GraphQL/StepZen Interface](/graphql/)
+- [And The Front-End App](/app/)
 
 > Who are you?
 

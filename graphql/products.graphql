@@ -1,0 +1,11 @@
+type Product {
+    asin: ID!
+}
+
+type Query {
+    productById (asin: ID!): Product
+        @rest (endpoint: "http://localhost/p/$asin")
+
+    products: [Product]
+        @rest (endpoint: "http://localhost/p/")
+}

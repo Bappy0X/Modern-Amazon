@@ -1,8 +1,10 @@
 require_relative "src/fetch.rb"
 
 def scrape(event:, context:)
-    p fetch
-    { success: true, data: ["one", "two", "three"] }
+    @data = fetch
+    { success: true, data: @data }
 end
 
-scrape event: nil, context: nil
+if __FILE__ == $0
+    p scrape event: nil, context: nil
+end
